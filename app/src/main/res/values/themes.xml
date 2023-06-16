@@ -7,4 +7,7 @@
     </style>
 
     <style name="Theme.LinearLayout" parent="Base.Theme.LinearLayout" />
+    <style name="DatePickerStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/firebrick</item> <!-- Change this line to set the desired color -->
+    </style>
 </resources>

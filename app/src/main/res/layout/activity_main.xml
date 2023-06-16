@@ -35,8 +35,13 @@
         </LinearLayout>
 
         <EditText
+            android:id="@+id/date_picker"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableRight="@android:drawable/ic_menu_my_calendar"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusableInTouchMode="false"
             android:hint="Birthdate" />
 
         <LinearLayout
@@ -44,11 +49,13 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <EditText
+            <AutoCompleteTextView
+                android:id="@+id/editTextCountry"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
                 android:hint="Country" />
+
 
             <Button
                 android:layout_width="0dp"
